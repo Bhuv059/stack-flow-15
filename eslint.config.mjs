@@ -17,6 +17,7 @@ const eslintConfig = [
     "plugin:tailwindcss/recommended",
     "prettier"
   ),
+  ...compat.plugins("import"),
 ];
 
 export default eslintConfig;
